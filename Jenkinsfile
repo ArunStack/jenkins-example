@@ -1,5 +1,4 @@
 pipline  {
-
     agent any
 
     stags{
