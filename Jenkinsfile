@@ -3,14 +3,11 @@ pipline  {
     agent any
 
     stags{
-
-        steps{
-
-            sh "mvn clean package"
-
+        stage('build'){
+            steps{
+                sh "mvc clean package"
+            }
         }
-
-    }
-
+        }
 }
 
